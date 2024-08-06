@@ -1,0 +1,86 @@
+.file-converter {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.format-instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.format-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.format-card h3 {
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.file-upload {
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.file-upload:hover {
+  background-color: #f0f8ff;
+}
+
+.pre-block {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 12px;
+}
+
+.convert-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.download-button {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
